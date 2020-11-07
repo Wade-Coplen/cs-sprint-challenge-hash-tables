@@ -3,6 +3,11 @@ def intersection(arrays):
     YOUR CODE HERE
     """
     # Your code here
+    #UNDERSTAND
+    #find all of the numbers that repeat in each list let return those repeated integers
+    #PLAN
+    # To do this, we would need to iterate over each list and assign each
+    # integer a key so that every time that integer is encountered it is add to that key as a value?
 
     return result
 
