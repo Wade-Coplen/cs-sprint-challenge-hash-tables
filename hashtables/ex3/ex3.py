@@ -20,18 +20,20 @@ def intersection(arrays):
     # dict ={}
 
     # what would we use as a key?
+    if statement in inner loop
     """
     # Your code here
-    result = {}
+    cache = {}
+    result = []
     
-    
-    for list in arrays:
-        for element in list:
-            if element not in result:
-                result[element] = 1
+    for array in arrays:
+        for element in array:
+            if element not in cache:
+                cache[element] = 1
             else:
-                result[element] += 1
-                
+                cache[element] += 1
+                if cache[element] == len(arrays):
+                    result.append(element)
     return result
 
         
